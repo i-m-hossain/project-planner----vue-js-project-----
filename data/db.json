@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "title": "Make a new website",
-      "details": "blah blah blah",
+      "title": "Make a new website updated",
+      "details": "blah blah blah up",
       "completed": false,
       "id": 5,
       "complete": true
@@ -18,7 +18,21 @@
       "title": "What is Lorem ??",
       "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       "completed": false,
-      "id": 7
+      "id": 7,
+      "complete": true
+    },
+    {
+      "title": "Make a new website updated",
+      "details": "blah blah blah updated",
+      "completed": false,
+      "id": 8,
+      "complete": true
+    },
+    {
+      "title": "Make a new website ",
+      "details": "blah blah blah",
+      "completed": false,
+      "id": 9
     }
   ]
 }

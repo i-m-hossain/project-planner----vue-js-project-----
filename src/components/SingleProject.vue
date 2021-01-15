@@ -3,14 +3,17 @@
       <div class="actions" >
             <h3 @click="showDetails = !showDetails">{{project.title}}</h3>
             <div class="icons">
-                <span class="material-icons">edit</span>
+                <router-link :to="{name : 'EditProject' ,params : {id : project.id}}" >
+                    <span  class="material-icons">edit</span>
+                </router-link>
+                
                 <span @click="deleteProject" class="material-icons">delete</span>
                 <span @click="toggleComplete"  class="material-icons tick">done</span>
             </div>
       </div>
       <div v-if="showDetails" class="details">
           <p>{{project.details}}</p>
-      </div>
+      </div> 
   </div>
 </template>
 
@@ -37,7 +40,7 @@ export default {
             }).then(()=>this.$emit('complete', this.project.id))
               .catch(err=>console.log(err))
             
-        }
+        },
     }
 
 }

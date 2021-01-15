@@ -3,7 +3,7 @@
     <router-link :to="{name: 'Home'}">Home</router-link>
     <router-link :to="{name: 'AddProject'}">Add a new Project</router-link>
   </div>
-</template>
+</template> 
 
 <script>
 export default {
