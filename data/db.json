@@ -1,16 +1,11 @@
 {
   "projects": [
     {
-      "id": 1,
-      "title": "Make marketing email ",
-      "details": "Lorem Ipsum",
-      "complete": true
-    },
-    {
       "title": "Make a new website",
       "details": "blah blah blah",
       "completed": false,
-      "id": 5
+      "id": 5,
+      "complete": true
     },
     {
       "title": "Another title",
@@ -18,6 +13,12 @@
       "completed": false,
       "id": 6,
       "complete": true
+    },
+    {
+      "title": "What is Lorem ??",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "completed": false,
+      "id": 7
     }
   ]
 }
