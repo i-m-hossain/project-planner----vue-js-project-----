@@ -5,7 +5,7 @@
       "details": "blah blah blah up",
       "completed": false,
       "id": 5,
-      "complete": true
+      "complete": false
     },
     {
       "title": "Another title",
@@ -32,7 +32,8 @@
       "title": "Make a new website ",
       "details": "blah blah blah",
       "completed": false,
-      "id": 9
+      "id": 9,
+      "complete": true
     }
   ]
 }
