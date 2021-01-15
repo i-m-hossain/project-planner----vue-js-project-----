@@ -1,0 +1,19 @@
+Features used during setup:
+
+	*router
+
+NPM dependencies:
+	*json-server		npm install -g json-server 
+	
+	I used local json data (data/db.json), so to use this directory:
+
+		json-server --watch data/db.json
+
+
+Fetching API:
+mounted(){
+    fetch('http://localhost:3000/projects')
+    .then(res => res.json())
+    .then(data => this.projects = data)
+    .catch(err =>console.log(err.message))
+  }
